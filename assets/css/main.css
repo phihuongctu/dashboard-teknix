@@ -1,0 +1,74 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.color-primary {
+  color: #00ffff;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+bdi {
+  display: inline-block;
+}
+
+body {
+  font-family: "Inter";
+}
+
+body * {
+  color: #fcfcfd;
+}
+
+html {
+  font-size: 16px !important;
+}
+/*# sourceMappingURL=main.css.map */

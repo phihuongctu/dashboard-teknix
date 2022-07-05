@@ -1,0 +1,53 @@
+@import "utilities/variable";
+@import "utilities/mixin";
+@import "utilities/common";
+@import "utilities/animation";
+
+// @font-face {
+//     font-family: $Galactus;
+//     font-weight: 500;
+//     src: url(str-insert("/assets/fonts/Galactus/Galactus-Medium.ttf", $path, 1))
+//         format("truetype");
+// }
+
+// @font-face {
+//     font-family: $Galactus;
+//     font-weight: 700;
+//     src: url(str-insert("/assets/fonts/Galactus/Galactus-Bold.ttf", $path, 1))
+//         format("truetype");
+// }
+
+// @font-face {
+//     font-family: $Inter;
+//     font-weight: 400;
+//     src: url(str-insert("/assets/fonts/Inter/Inter-Regular.ttf", $path, 1))
+//         format("truetype");
+// }
+
+// @font-face {
+//     font-family: $Inter;
+//     src: url(str-insert("/assets/fonts/Inter/Inter-Medium.ttf", $path, 1))
+//         format("truetype");
+//     font-weight: 500;
+// }
+
+// @font-face {
+//     font-family: $Inter;
+//     font-weight: 600;
+//     src: url(str-insert("/assets/fonts/Inter/Inter-SemiBold.ttf", $path, 1))
+//         format("truetype");
+// }
+
+// @font-face {
+//     font-family: $Inter;
+//     font-weight: 700;
+//     src: url(str-insert("/assets/fonts/Inter/Inter-Bold.ttf", $path, 1))
+//         format("truetype");
+// }
+
+// @font-face {
+//     font-family: $Inter;
+//     font-weight: 800;
+//     src: url(str-insert("/assets/fonts/Inter/Inter-ExtraBold.ttf", $path, 1))
+//         format("truetype");
+// }

@@ -1,0 +1,52 @@
+@mixin backgroundColor($color, $opacity: 1) {
+    background-color: rgba($color, $opacity);
+}
+@mixin textColor($color, $opacity: 1) {
+    color: rgba($color, $opacity);
+}
+@mixin backgroundImg($url: null) {
+    background: $url no-repeat center;
+}
+@mixin flexBox(
+    $direction: row,
+    $content: center,
+    $items: center,
+    $wrap: nowrap
+) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $content;
+    align-items: $items;
+    flex-wrap: $wrap;
+}
+@mixin text-ellipsis($line) {
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin absolute-middle($horizontal: true, $vertical: true) {
+    position: absolute;
+    @if $horizontal and $vertical {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } @else if $horizontal {
+        left: 50%;
+        transform: translate(-50%, 0);
+    } @else if $vertical {
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+}
+
+@mixin grid-center($content: true, $items: true) {
+    display: grid;
+    @if $content and $items {
+        place-content: center;
+    } @else if $items {
+        place-items: center;
+    }
+}
